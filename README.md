@@ -1,13 +1,12 @@
 ## Stephen Serjeant's Homepage (still in the process of migration from [wikispaces](http://stephenserjeant.wikispaces.com/))
 
-School of Physical Sciences
-
-[The Open University](http://www.open.ac.uk/)
-Milton Keynes
-MK7 6AA
-England
-Phone: **+44 (0)1908 652724**
-Skype: stephen_serjeant
+School of Physical Sciences  
+[The Open University](http://www.open.ac.uk/)  
+Milton Keynes  
+MK7 6AA  
+England  
+Phone: **+44 (0)1908 652724**  
+Skype: stephen_serjeant  
 ![Image](http://physics.open.ac.uk/~sserjeant/image004.jpg)
 
 
