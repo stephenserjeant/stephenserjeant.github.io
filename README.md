@@ -1,4 +1,4 @@
-## Stephen Serjeant's Homepage (still in the process of migration from [wikispaces](http://stephenserjeant.wikispaces.com/)
+## Stephen Serjeant's Homepage (still in the process of migration from [wikispaces](http://stephenserjeant.wikispaces.com/))
 
 <span style="font-size: 16.9px;">[[@http://www.open.ac.uk/|The Open University]]</span>
 <span style="font-size: 16.9px;">Milton Keynes</span>
