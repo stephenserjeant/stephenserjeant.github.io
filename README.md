@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Stephen Serjeant's Homepage (still in the process of migration from [wikispaces](http://stephenserjeant.wikispaces.com/)
 
-You can use the [editor on GitHub](https://github.com/stephenserjeant/stephenserjeant.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<span style="font-size: 16.9px;">[[@http://www.open.ac.uk/|The Open University]]</span>
+<span style="font-size: 16.9px;">Milton Keynes</span>
+<span style="font-size: 16.9px;">MK7 6AA</span>
+<span style="font-size: 16.9px;">England</span>
+<span style="font-size: 16.9px;">Phone: **+44 (0)1908 652724**</span>
+<span style="font-size: 16.9px;">Email:</span>
+<span style="font-size: 16.9px;">[[image:http://physics.open.ac.uk/~sserjeant/image004.jpg]]</span>
+<span style="font-size: 16.9px;">Skype: stephen_serjeant</span> ||
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I'm the Open University's Professor of Astronomy specialising in extragalactic surveys of star-forming galaxies and strong gravitational lensing. I've written or co-written over 300 papers so far with over 10,000 citations in all, and four books, and co-won a 2004 [Daiwa Adrian Prize](http://www.dajf.org.uk/) for Anglo-Japanese scientific collaboration. I'm also a [Fellow of the Institute of Physics](http://www.iop.org), a [Fellow of the Higher Education Academy](http://www.heacademy.ac.uk/), a [Fellow of the Royal Astronomical Society](http://www.ras.org.uk/) and a [Chartered Physicist](http://www.iop.org/membership/chartered/chartered_titles/cphys/page_38079.html), meaning that I have three F-words and one C-word after my name, all well deserved.
 
-### Markdown
+I wrote a [paper](http://adsabs.harvard.edu/abs/2012arXiv1202.1829F) with George Djorgovski, who wrote a [paper](http://projecteuclid.org/euclid.ss/1105714166) with Jogesh Babu, who wrote a [paper](http://books.google.com/books?id=nw9ujImV3pwC&pg=PA441&lpg=PA441&dq=%22a+note+on+the+distribution+function+of+additive+arithmetical+functions+in+short+intervals%22&source=web&ots=cG7d9CnrRD&sig=7unLOf4nqfbY2HFlyEvf5vpCUyo) with Paul Erdös, giving me an [Erdös number](http://www.oakland.edu/enp) of no more than three, or exactly three assuming [this list](https://files.oakland.edu/users/grossman/enp/Erdos2.html) is currently complete. This is five less than [Erwin Schrödinger](http://www.oakland.edu/enp/erdpaths). There's a lesson in there somewhere but for some reason I don't feel it's in my best interests to point it out.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/stephenserjeant/stephenserjeant.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
