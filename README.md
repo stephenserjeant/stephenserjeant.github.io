@@ -1,13 +1,15 @@
 ## Stephen Serjeant's Homepage (still in the process of migration from [wikispaces](http://stephenserjeant.wikispaces.com/))
 
-<span style="font-size: 16.9px;">[[@http://www.open.ac.uk/|The Open University]]</span>
-<span style="font-size: 16.9px;">Milton Keynes</span>
-<span style="font-size: 16.9px;">MK7 6AA</span>
-<span style="font-size: 16.9px;">England</span>
-<span style="font-size: 16.9px;">Phone: **+44 (0)1908 652724**</span>
-<span style="font-size: 16.9px;">Email:</span>
-<span style="font-size: 16.9px;">[[image:http://physics.open.ac.uk/~sserjeant/image004.jpg]]</span>
-<span style="font-size: 16.9px;">Skype: stephen_serjeant</span> ||
+School of Physical Sciences
+
+[The Open University](http://www.open.ac.uk/)
+Milton Keynes
+MK7 6AA
+England
+Phone: **+44 (0)1908 652724**
+Skype: stephen_serjeant
+![Image](http://physics.open.ac.uk/~sserjeant/image004.jpg)
+
 
 I'm the Open University's Professor of Astronomy specialising in extragalactic surveys of star-forming galaxies and strong gravitational lensing. I've written or co-written over 300 papers so far with over 10,000 citations in all, and four books, and co-won a 2004 [Daiwa Adrian Prize](http://www.dajf.org.uk/) for Anglo-Japanese scientific collaboration. I'm also a [Fellow of the Institute of Physics](http://www.iop.org), a [Fellow of the Higher Education Academy](http://www.heacademy.ac.uk/), a [Fellow of the Royal Astronomical Society](http://www.ras.org.uk/) and a [Chartered Physicist](http://www.iop.org/membership/chartered/chartered_titles/cphys/page_38079.html), meaning that I have three F-words and one C-word after my name, all well deserved.
 
