@@ -1,4 +1,3 @@
-<script src="/js/erot13.js"></script>
 
 ## Stephen Serjeant's Homepage (still in the process of migration from [wikispaces](http://stephenserjeant.wikispaces.com/))
 
