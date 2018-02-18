@@ -1,5 +1,5 @@
 
-## Stephen Serjeant's Homepage (still in the process of migration from [wikispaces](http://stephenserjeant.wikispaces.com/))
+## Professor Stephen Serjeant's Homepage (still in the process of migration from [wikispaces](http://stephenserjeant.wikispaces.com/))
 
 School of Physical Sciences  
 [The Open University](http://www.open.ac.uk/)  
