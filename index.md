@@ -1,10 +1,10 @@
-[School of Physical Sciences](http://www.open.ac.uk/science/physical-science/)  
-[The Open University](http://www.open.ac.uk/)  
-Milton Keynes  
-MK7 6AA  
-United Kingdom  
-Phone: **+44 (0)1908 652724**  
-Skype: stephen_serjeant
+[School of Physical Sciences](http://www.open.ac.uk/science/physical-science/)\
+[The Open University](http://www.open.ac.uk/)\
+Milton Keynes\
+MK7 6AA\
+United Kingdom\
+Phone: **+44 (0)1908 652724**\
+Skype: stephen_serjeant\
 
 <script language="JavaScript" type="text/javascript">
 var part1 = "stephen.serjeant";
@@ -13,8 +13,8 @@ var part3 = String.fromCharCode(part2);
 var part4 = "open.ac.uk";
 var part5 = part1 + String.fromCharCode(part2) + part4;
 document.write("Email: <a href=" + "mai" + "lto" + ":" + part5 + ">" + part1 + part3 + part4 + "</a>.");
-</script>  
-  
+</script>
+\
 [ORCID](https://orcid.org/0000-0002-0517-7943)  [LinkedIn](https://www.linkedin.com/in/stephenserjeant)  [Twitter](https://twitter.com/stephenserjeant)  [Facebook](https://www.facebook.com/stephen.serjeant)  [Quora](https://www.quora.com/profile/Stephen-Serjeant)  [Ello](https://ello.co/stephenserjeant)  [Publications (NASA ADS)](http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?&author=Serjeant%2Cs&jou_pick=ALL&nr_to_return=1000)  [OpenLearn Blog](http://www.open.edu/openlearn/profiles/ss8464/articles)  [Stephen Serjeant at the Open University](http://www.open.ac.uk/people/ss8464)  
 
 I'm the Open University's Professor of Astronomy specialising in extragalactic surveys of star-forming galaxies and strong gravitational lensing. I've written or co-written over 300 papers so far with over 10,000 citations in all, and four books, and co-won a 2004 [Daiwa Adrian Prize](http://www.dajf.org.uk/) for Anglo-Japanese scientific collaboration. I'm also a [Fellow of the Institute of Physics](http://www.iop.org), a [Fellow of the Higher Education Academy](http://www.heacademy.ac.uk/), a [Fellow of the Royal Astronomical Society](http://www.ras.org.uk/) and a [Chartered Physicist](http://www.iop.org/membership/chartered/chartered_titles/cphys/page_38079.html), meaning that I have three F-words and one C-word after my name, all well deserved.  
