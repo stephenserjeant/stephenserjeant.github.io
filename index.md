@@ -2,7 +2,7 @@ School of Physical Sciences
 [The Open University](http://www.open.ac.uk/)  
 Milton Keynes  
 MK7 6AA  
-UK
+United Kingdom 
 
 Phone: **+44 (0)1908 652724**  
 Skype: stephen_serjeant  
@@ -13,8 +13,7 @@ var part2 = Math.pow(2,6);
 var part3 = String.fromCharCode(part2);
 var part4 = "open.ac.uk";
 var part5 = part1 + String.fromCharCode(part2) + part4;
-document.write("Email: <a href=" + "mai" + "lto" + ":" 
-+ part5 + ">" + part1 + part3 + part4 + "</a>.");
+document.write("Email: <a href=" + "mai" + "lto" + ":" + part5 + ">" + part1 + part3 + part4 + "</a>.");
 </script>
 
 
