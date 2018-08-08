@@ -1,5 +1,3 @@
-# Stephen Serjeant 
-
 School of Physical Sciences  
 [The Open University](http://www.open.ac.uk/)  
 Milton Keynes  
