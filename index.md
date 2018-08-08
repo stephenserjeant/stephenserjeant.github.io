@@ -12,7 +12,7 @@ var part2 = Math.pow(2,6);
 var part3 = String.fromCharCode(part2);
 var part4 = "open.ac.uk";
 var part5 = part1 + String.fromCharCode(part2) + part4;
-document.write("Email: <a href=" + "mai" + "lto" + ":" + part5 + ">" + part1 + part3 + part4 + "</a>.");
+document.write("Email: <a href=" + "mai" + "lto" + ":" + part5 + ">" + part1 + part3 + part4 + "</a>");
 </script>  
 &nbsp;  
 [ORCID](https://orcid.org/0000-0002-0517-7943)  [LinkedIn](https://www.linkedin.com/in/stephenserjeant)  [Twitter](https://twitter.com/stephenserjeant)  [Facebook](https://www.facebook.com/stephen.serjeant)  [Quora](https://www.quora.com/profile/Stephen-Serjeant)  [Ello](https://ello.co/stephenserjeant)  [Publications (NASA ADS)](http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?&author=Serjeant%2Cs&jou_pick=ALL&nr_to_return=1000)  [OpenLearn Blog](http://www.open.edu/openlearn/profiles/ss8464/articles)  [Stephen Serjeant at the Open University](http://www.open.ac.uk/people/ss8464)  
