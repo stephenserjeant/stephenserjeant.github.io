@@ -3,10 +3,8 @@ School of Physical Sciences
 Milton Keynes  
 MK7 6AA  
 United Kingdom 
-
 Phone: **+44 (0)1908 652724**  
 Skype: stephen_serjeant  
-
 <script language="JavaScript" type="text/javascript">
 var part1 = "stephen.serjeant";
 var part2 = Math.pow(2,6);
