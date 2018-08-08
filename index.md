@@ -3,7 +3,7 @@
 Milton Keynes  
 MK7 6AA  
 United Kingdom  
-Phone: **+44 (0)1908 652724**  
+Phone: <a href="tel:+441908652724">**+44 (0)1908 652724**</a>  
 Skype: stephen_serjeant  
 
 <script language="JavaScript" type="text/javascript">
