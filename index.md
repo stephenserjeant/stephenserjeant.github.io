@@ -1,4 +1,4 @@
-# Professor Stephen Serjeant's Github homepage (work in progress) 
+# Stephen Serjeant 
 
 School of Physical Sciences  
 [The Open University](http://www.open.ac.uk/)  
