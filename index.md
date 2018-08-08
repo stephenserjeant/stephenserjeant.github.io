@@ -16,6 +16,7 @@ document.write("Email: <a href=" + "mai" + "lto" + ":" + part5 + ">" + part1 + p
 </script>
  
 &nbsp;
+
 [ORCID](https://orcid.org/0000-0002-0517-7943)  
 [LinkedIn](https://www.linkedin.com/in/stephenserjeant)  
 [Twitter](https://twitter.com/stephenserjeant)  
@@ -27,6 +28,7 @@ document.write("Email: <a href=" + "mai" + "lto" + ":" + part5 + ">" + part1 + p
 [Stephen Serjeant at the Open University](http://www.open.ac.uk/people/ss8464)
 
 &nbsp;
+
 I'm the Open University's Professor of Astronomy specialising in extragalactic surveys of star-forming galaxies and strong gravitational lensing. I've written or co-written over 300 papers so far with over 10,000 citations in all, and four books, and co-won a 2004 [Daiwa Adrian Prize](http://www.dajf.org.uk/) for Anglo-Japanese scientific collaboration. I'm also a [Fellow of the Institute of Physics](http://www.iop.org), a [Fellow of the Higher Education Academy](http://www.heacademy.ac.uk/), a [Fellow of the Royal Astronomical Society](http://www.ras.org.uk/) and a [Chartered Physicist](http://www.iop.org/membership/chartered/chartered_titles/cphys/page_38079.html), meaning that I have three F-words and one C-word after my name, all well deserved.
 
 
