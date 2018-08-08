@@ -1,5 +1,5 @@
 
-# Professor Stephen Serjeant's Homepage 
+# Professor Stephen Serjeant's homepage (work in progress) 
 
 School of Physical Sciences  
 [The Open University](http://www.open.ac.uk/)  
