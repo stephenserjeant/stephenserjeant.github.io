@@ -5,15 +5,13 @@ MK7 6AA
 England  
 Phone: **+44 (0)1908 652724**  
 Skype: stephen_serjeant  
-![Image](http://physics.open.ac.uk/~sserjeant/image004.jpg)
-
 <script language="JavaScript" type="text/javascript">
-var part1 = "example11";
+var part1 = "stephen.serjeant";
 var part2 = Math.pow(2,6);
 var part3 = String.fromCharCode(part2);
-var part4 = "heartinternet.uk";
+var part4 = "open.ac.uk";
 var part5 = part1 + String.fromCharCode(part2) + part4;
-document.write("Please email us at <a href=" + "mai" + "lto" + ":" 
+document.write("Email: <a href=" + "mai" + "lto" + ":" 
 + part5 + ">" + part1 + part3 + part4 + "</a>.");
 </script>
 
