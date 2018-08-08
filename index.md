@@ -1,4 +1,4 @@
-School of Physical Sciences  
+[School of Physical Sciences](http://www.open.ac.uk/science/physical-science/)  
 [The Open University](http://www.open.ac.uk/)  
 Milton Keynes  
 MK7 6AA  
