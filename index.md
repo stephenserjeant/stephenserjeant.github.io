@@ -2,7 +2,8 @@ School of Physical Sciences
 [The Open University](http://www.open.ac.uk/)  
 Milton Keynes  
 MK7 6AA  
-England  
+UK
+
 Phone: **+44 (0)1908 652724**  
 Skype: stephen_serjeant  
 <script language="JavaScript" type="text/javascript">
