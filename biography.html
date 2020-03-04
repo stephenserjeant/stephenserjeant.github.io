@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Stephen Serjeant</title>
+<style type="text/css"> 
+<!-- 
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	background-color: #EEEEEE;
+	background-image: url();
+	background-repeat: repeat;
+}
+.twoColHybLtHdr #container { 
+	width: 80%;  /* this will create a container 80% of the browser width */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+.twoColHybLtHdr #header {
+	padding: 0 10px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	background-color: #5666A1;
+} 
+.twoColHybLtHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+
+/* Tips for sidebar1:
+1. Since we are working in relative units, it's best not to use padding on the sidebar. It will be added to the overall width for standards compliant browsers creating an unknown actual width. 
+2. Since em units are used for the sidebar value, be aware that its width will vary with different default text sizes.
+3. Space between the side of the div and the elements within it can be created by placing a left and right margin on those elements as seen in the ".twoColHybLtHdr #sidebar1 p" rule.
+*/
+.twoColHybLtHdr #sidebar1 {
+	float: left;
+	width: 200px; /* top and bottom padding create visual space within this div  */
+	background-color: #D5D6EA;
+	padding-top: 15px;
+	padding-right: 0;
+	padding-bottom: 15px;
+	padding-left: 0;
+	height: 100%;
+}
+.twoColHybLtHdr #sidebar1 h3, .twoColHybLtHdr #sidebar1 p {
+	margin-left: 10px; /* the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 10px;
+}
+
+/* Tips for mainContent:
+1. The space between the mainContent and sidebar1 is created with the left margin on the mainContent div.  No matter how much content the sidebar1 div contains, the column space will remain. You can remove this left margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends.
+2. Be aware it is possible to cause float drop (the dropping of the non-floated mainContent area below the sidebar) if an element wider than it can contain is placed within the mainContent div. WIth a hybrid layout (percentage-based overall width with em-based sidebar), it may not be possible to calculate the exact width available. If the user's text size is larger than average, you will have a wider sidebar div and thus, less room in the mainContent div. You should be aware of this limitation - especially if the client is adding content with Contribute.
+3. In the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This may help avoid several IE-specific bugs.
+*/
+.twoColHybLtHdr #mainContent { 
+	margin: 0 20px 0 13em; /* the right margin can be given in percentages or pixels. It creates the space down the right side of the page. */
+} 
+.twoColHybLtHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#DDDDDD;
+} 
+.twoColHybLtHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+/* Miscellaneous classes for reuse */
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+	height:100%;
+	font-size: 1px;
+	line-height: 0px;
+}
+.style1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	color: #FFFFFF;
+}
+.style3 {font-size: 18px}
+.style4 {font-size: small}
+.style8 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; }
+a:link {
+	text-decoration: underline;
+	color: #000000;
+}
+a:visited {
+	text-decoration: underline;
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: underline;
+}
+.style9 {font-size: 24px}
+--> 
+</style>
+<!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColHybLtHdr #sidebar1 { padding-top: 30px; }
+.twoColHybLtHdr #mainContent { zoom: 1; padding-top: 15px; }
+/* the above proprietary zoom property gives IE the hasLayout it may need to avoid several bugs */
+</style>
+<![endif]--><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+
+<body class="twoColHybLtHdr">
+
+<div id="container">
+  <div id="header">
+    <h1 class="style1">Stephen Serjeant's homepage</h1>
+  <!-- end #header --></div>
+  <div id="sidebar1">
+    <div align="center">
+      <p><img src=image002.jpg alt="Stephen Serjeant" width="149" height="149" align="bottom"></p>
+    </div>
+    <table width="79%" border="0" align="center">
+      <tbody><tr>
+        <td><span class="style8"><a href=./index.html>home</a></span></td>
+      </tr>
+      <tr>
+        <td class="style8"><a href=./research.html>research</a></td>
+      </tr>
+      <tr>
+        <td class="style8"><a href=./teaching.html>teaching</a></td>
+      </tr>
+      <tr>
+        <td class="style3"><a href=./publications.html>publications</a></td>
+      </tr>
+      <tr>
+        <td class="style8"><a href=./biography.html><strong>biography</strong></a></td>
+      </tr>
+      <tr>
+        <td><span class="style3"><a href=./broadcasting.html>science <br>
+        broadcasting</a></span></td>
+      </tr>
+      <tr>
+        <td><span class="style3"><a href=./faq.html>FAQ</a></span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><a href="http://physics.open.ac.uk/">School of Physical Sciences</a></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><a href="http://www.open.ac.uk/" target="_blank">Open University</a></td>
+      </tr>
+    </tbody></table>
+    <h3><!-- end #sidebar1 -->
+    </h3>
+    <p>&nbsp;</p>
+  </div>
+  <div id="mainContent">
+    <table width="100%" border="0">
+
+      <tbody><tr>
+        <td width="100%"><p><span class="style9">Biography</span></p>
+            <ul>
+            <li>Head of Astronomy Discipline at the <a href="http://www.open.ac.uk/science/physics/home.php?" target="_blank">Open University</a>, from August 2011</li>
+          </ul>
+	    <ul>
+            <li>Reader in Cosmology at the <a href="http://www.open.ac.uk/science/physics/home.php?" target="_blank">Open University</a>, from June 2010</li>
+          </ul>
+	    <ul>
+            <li>Senior Lecturer in Astrophysics at the <a href="http://www.open.ac.uk/science/physics/home.php?" target="_blank">Open University</a>, from March 2006 to June 2010</li>
+          </ul>
+          <ul>
+            <li>Senior Lecturer in Astrophysics at the <a href="http://www.kent.ac.uk/physical-sciences/" target="_blank">University of Kent</a>, from September 2005 to February 2006 </li>
+          </ul>
+          <ul>
+            <li>Lecturer in Space Science at the <a href="http://www.kent.ac.uk/physical-sciences/" target="_blank">University of Kent</a>, from March 2001 to September 2005 </li>
+          </ul>
+          <ul>
+            <li>Post-doctoral research fellow at <a href="http://astro.ic.ac.uk/" target="_blank">Imperial College London</a>, from November 1995 to March 2001. </li>
+          </ul>
+          <ul>
+            <li>1992-1995: D.Phil. (<a href="http://www-astro.physics.ox.ac.uk/" target="_blank">Oxon</a>), title: <em>Quasars and Galaxies at Early Cosmic Epochs</em></li>
+          </ul>
+          <ul>
+            <li>1989-1992: B.Sc. first class honours in <a href="http://www.phy.bris.ac.uk/" target="_blank">Physics, Bristol University</a></li>
+          </ul>
+          <p>I am also a <a href="http://www.iop.org/" target="_blank">Fellow of the Institute of Physics</a>, a <a href="http://www.heacademy.ac.uk/" target="_blank">Fellow of the Higher Education Academy</a>, a <a href="http://www.ras.org.uk/" target="_blank">Fellow of the Royal Astronomical Society</a> and a <a href="http://www.iop.org/membership/chartered/chartered_titles/cphys/page_38079.html" target="_blank">Chartered Physicist</a>. </p>
+        <p>I also passed the <a href="http://www.kent.ac.uk/teaching/qualifications/pgche/" target="_blank">Postgraduate Certificate in Higher Education</a>.
+ This higher education teaching qualification, equivalent to one-third 
+of an M.Sc., was and still is a requirement for new lecturers at the <a href="http://www.kent.ac.uk/" target="_blank">University of Kent</a>. </p></td>
+      </tr>
+    </tbody></table>
+  </div>
+<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat">
+	<div id="footer">
+    <p class="style4" align="justify">These pages are the personal 
+responsibility of Stephen Serjeant. The views expressed here do not 
+necessarily represent the views of the Open University. The University 
+takes no responsibility for any material on these pages.</p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+
+
+</body><script src="biography_files/inject.js"></script></html>

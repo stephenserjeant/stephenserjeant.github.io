@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Stephen Serjeant</title>
+<style type="text/css"> 
+<!-- 
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	background-color: #EEEEEE;
+	background-image: url();
+	background-repeat: repeat;
+}
+.twoColHybLtHdr #container { 
+	width: 80%;  /* this will create a container 80% of the browser width */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+.twoColHybLtHdr #header {
+	padding: 0 10px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	background-color: #5666A1;
+} 
+.twoColHybLtHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+
+/* Tips for sidebar1:
+1. Since we are working in relative units, it's best not to use padding on the sidebar. It will be added to the overall width for standards compliant browsers creating an unknown actual width. 
+2. Since em units are used for the sidebar value, be aware that its width will vary with different default text sizes.
+3. Space between the side of the div and the elements within it can be created by placing a left and right margin on those elements as seen in the ".twoColHybLtHdr #sidebar1 p" rule.
+*/
+.twoColHybLtHdr #sidebar1 {
+	float: left;
+	width: 200px; /* top and bottom padding create visual space within this div  */
+	background-color: #D5D6EA;
+	padding-top: 15px;
+	padding-right: 0;
+	padding-bottom: 15px;
+	padding-left: 0;
+	height: 100%;
+}
+.twoColHybLtHdr #sidebar1 h3, .twoColHybLtHdr #sidebar1 p {
+	margin-left: 10px; /* the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 10px;
+}
+
+/* Tips for mainContent:
+1. The space between the mainContent and sidebar1 is created with the left margin on the mainContent div.  No matter how much content the sidebar1 div contains, the column space will remain. You can remove this left margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends.
+2. Be aware it is possible to cause float drop (the dropping of the non-floated mainContent area below the sidebar) if an element wider than it can contain is placed within the mainContent div. WIth a hybrid layout (percentage-based overall width with em-based sidebar), it may not be possible to calculate the exact width available. If the user's text size is larger than average, you will have a wider sidebar div and thus, less room in the mainContent div. You should be aware of this limitation - especially if the client is adding content with Contribute.
+3. In the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This may help avoid several IE-specific bugs.
+*/
+.twoColHybLtHdr #mainContent { 
+	margin: 0 20px 0 13em; /* the right margin can be given in percentages or pixels. It creates the space down the right side of the page. */
+} 
+.twoColHybLtHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#DDDDDD;
+} 
+.twoColHybLtHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+/* Miscellaneous classes for reuse */
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+	height:100%;
+	font-size: 1px;
+	line-height: 0px;
+}
+.style1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	color: #FFFFFF;
+}
+.style3 {font-size: 18px}
+.style4 {font-size: small}
+.style8 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; }
+a:link {
+	text-decoration: underline;
+	color: #000000;
+}
+a:visited {
+	text-decoration: underline;
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: underline;
+}
+.style9 {font-size: 24px}
+.style11 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; }
+--> 
+</style>
+<!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColHybLtHdr #sidebar1 { padding-top: 30px; }
+.twoColHybLtHdr #mainContent { zoom: 1; padding-top: 15px; }
+/* the above proprietary zoom property gives IE the hasLayout it may need to avoid several bugs */
+</style>
+<![endif]--></head>
+
+<body class="twoColHybLtHdr">
+
+<div id="container">
+  <div id="header">
+    <h1 class="style1">Stephen Serjeant's homepage</h1>
+  <!-- end #header --></div>
+  <div id="sidebar1">
+    <div align="center">
+      <p><img src="image002.jpg" alt="Stephen Serjeant" width="149" height="149" align="baseline" /></p>
+    </div>
+    <table width="79%" border="0" align="center">
+      <tr>
+        <td><span class="style3"><a href=./index.html>home</a></span></td>
+      </tr>
+      <tr>
+        <td class="style8"><a href=./research.html>research</a></td>
+      </tr>
+      <tr>
+        <td class="style8"><a href=./teaching.html>teaching</a></td>
+      </tr>
+      <tr>
+        <td><span class="style3"><a href=./publications.html>publications</a></span></td>
+      </tr>
+      <tr>
+        <td><span class="style8"><a href=./biography.html>biography</a></span></td>
+      </tr>
+      <tr>
+        <td><span class="style3"><a href=./broadcasting.html>science <br />
+        broadcasting</a></span></td>
+      </tr>
+      <tr>
+        <td><span class="style11"><a href=./faq.html>FAQ</a></span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><a href="http://www8.open.ac.uk/science/main/about-the-faculty/departments/physical-sciences">School of Physical Sciences</a></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><a href="http://www.open.ac.uk">Open University</a></td>
+      </tr>
+    </table>
+    <h3><!-- end #sidebar1 -->
+    </h3>
+    <p>&nbsp;</p>
+  </div>
+  <div id="mainContent">
+
+<h1>Frequently Asked Questions</h1>
+
+<h3>You haven't answered my email!</h3>
+
+<p>I'm very sorry, I get over 100 emails every day, sometimes 300. Please
+resend it or (if urgent) better still give me a phone call.</p>
+
+<h3>How do I become a professional astronomer?</h3>
+
+<p>The usual path is to start with a first degree in physics (BSc or
+MPhys) but some start with another numerate discipline such as
+mathematics. In the UK system, most physics degree programmes require
+physics and mathematics A2 levels (note: not AS levels). A second
+mathematics A2 level would be to your advantage. Many people choose
+chemistry as their other science A2 level, but I didn't. An
+alternative route for those who are changing careers or looking for
+less costly tuition fees is to choose an Open University first degree
+in Natural Sciences, within which you choose the Physical Sciences
+strand. Numerate degrees are among the most employable, regardless of
+whether you are ultimately aiming to go into research astronomy, and
+they enjoy among the largest graduate premiums (ie additional income
+over the course of one's career as a result of the qualification). The
+Open University doesn't have entrance requirements in the same way as
+the rest of the UK university sector and as a result it takes you from
+a more or less complete standing start to being ready for a PhD, in a
+fairly steep but still accessible ramp up.</p>
+
+<p>After the first degree, the next stage is a doctorate, or sometimes a
+masters then a doctorate. In the UK system a masters degree is not a
+prerequisite for a PhD place. For advice on this, see below. A
+doctorate is a research apprenticeship. Falling in love with astronomy
+is not the same as falling in love with research, and you may find
+that a research career is not to your liking. After the doctorate, the
+next stage is a series of temporary postdoctoral research contracts.
+For this it's to your advantage if you can work abroad. After this is
+the hunt for academic tenure, ie a permanent job. The pay is not great
+in research, but you get to choose your own hours and work on things
+that interest you and you believe are important.</p>
+
+
+<h3>I'd like to do a Masters or a PhD</h3>
+
+<p>We do have many potential PhD projects in cosmology, including work on
+gravitational lensing, extreme starburst galaxies, the links between
+quasar black hole accretion and stellar mass build-up, 
+constraints on the reionization
+population that created the first light in the Universe after the Big
+Bang, and novel applications of machine learning technologies.</p>
+
+<p>There are two hurdles one must jump to secure a postgraduate
+studentship: finding a supervisor who's prepared to supervise a
+project that you're interested in, and finding a source of funding for
+your tuition and living expenses. The latter hurdle is normally the
+more tricky. Our department receives a quota of full-time funded
+studentships from the research council STFC that the Open University
+often supplements with its own internal sources of funding to increase
+the number of available studentships. To qualify for this funding,
+prospective students usually need either an upper second or first
+class honours degree in a relevant subject. (A lower second is
+acceptable to the research council if supplemented by relevant
+Masters-level study, though prospective supervisors will need to be
+assured that the student can cope with the research programme.) For
+more information, contact the postgradute tutor at: 
+	    <script language="JavaScript" type="text/javascript">
+	      var part1 = "physastro_pgtutor";
+	      var part2 = Math.pow(2,6);
+	      var part3 = String.fromCharCode(part2);
+	      var part4 = "open.ac.uk";
+	      var part5 = part1 + String.fromCharCode(part2) + part4;
+	      document.write("<a href=" + "mai" + "lto" + ":" + part5 + ">" + part1 + part3 + part4 + "</a>");
+	    </script>  
+</p>
+
+<p>You should be rummaging the web pages of institutions to see if the
+research there interests you enough to spend three years doing
+it. Nevertheless, remember that a PhD isn't in practice with an
+institution, it's with a supervisor. A big name is good for future
+prospects but beware of having a supervisor who is such a big shot
+they're always swanning off somewhere so you never get to meet them in
+practice. Yes this happens, and then you end up relying on ad hoc help
+from other staff and postdocs.</p>
+
+<p>Here are some of the things you might expect in an interview for a
+PhD place. Expect questions on past research project experience
+(e.g. undergraduate) if applicable, technical questions designed to
+test understanding of physics and/or maths and/or coding, perhaps
+(though this would be a stretch) questions aimed at finding potential
+for finding imaginative answers. Mainly though it's potential
+supervisors deciding if they could work with potential students. And
+vice versa - the interview works both ways. Prospective students
+should ask about the availability of data for observational projects
+(you don't want to be caught short if the project depends critically
+on time that hasn't been awarded yet), the availability of sufficient
+infrastructure eg computing etc to do the project (not usually an
+issue unless it's heavily computational or lab-based) and remember
+above all to speak with current students there, particularly those
+supervised by your prospective supervisor.</p>
+
+
+<h3>PhD thesis corrections</h3>
+
+<p>Here are the most common corrections I spot when examining a PhD or
+MSc thesis:</p>
+
+<ol>
+  <li> grammatical errors, such as "it's" vs. "its", or "Where"
+  vs. "where" (Microsoft Word sometimes wrongly capitalises the first
+  word after an equation);</li> 
+  <li> images pulled off the web without attribution that need to have
+  a source or attribution cited.</li>
+</ol>
+
+<h3>Social Networking</h3>
+
+<ul>
+<li> Twitter: I have a public profile on Twitter, @stephenserjeant. I'm
+  not particularly concerned about follower counts but I enjoy the
+  conversational serendipity of Twitter.</li>
+
+<li> Facebook: My profile on this network is private and I'm afraid only
+  link with friends whom I have met in real life. (Most OU students
+  are mature students so I have no problem in principle with linking
+  with OU students, but be aware that this is not necessarily my OU
+  staff "persona".)</li>
+
+<li> LinkedIn: I am happy to link with almost anyone with whom I have had
+  some professional interaction.</li>
+
+<li> Quora: I am still working out what this network is for.</li>
+
+</ul>
+
+<h3>I have a new theory of the Universe</h3>
+
+<p>I'm sorry but I'm afraid that I don't comment on unsolicited physical
+theories (except from OU students during their studies or to provide
+peer review for academic journals) unless the correspondent can first
+answer some questions of my own, such as to explain the tensorial
+nature of the Christoffel symbols, or to explain second (canonical)
+quantisation. This is to reassure me that the correspondent has a good
+grasp of the problems they're trying to solve. This isn't to say that
+new ideas aren't needed or aren't welcomed by the community, but it's
+very easy for a non-specialist to underestimate the size of the
+edifice of evidence in this subject, or the gulf between popular
+science books and the active practice of science.</p>
+
+<p>If you can't answer the above test questions, then my best advice
+would be to take some training in astrophysics. I certainly wouldn't
+want to dissuade someone who is being industrious and proactive and we
+have many successful students who are in all age groups and technical
+backgrounds. There are many options, both full-time and part-time,
+including (but not limited to) the Open University. At the OU, most
+modules you study will give you access to a tutor who will be able to
+help you with your questions. The OU modules take you from a complete
+standing start at entry level to general relativity at the most
+advanced undergraduate level.</p>
+
+<p>Although I won't comment on unsolicited theories except in the cases
+above, you may find some specific bits of feedback apply to your
+case. The answers are not perfect because I have not yet understood
+the slightly crazed conviction of some people that their theory is
+right, combined with a curious reluctance of those same people to
+learn more physics and mathematics. If you fall into that category
+then please don't expect a dialogue.</p>
+
+<ol>
+
+<li> <b>"I would like to pay you to check my theory."</b> Money isn't the
+  issue - it's that I'd rather not get into a dialogue when the issue
+  is explaining the fundamentals. If you're enthused enough to be
+  prepared to pay, I would recommend taking some modules in physics
+  and astronomy.</li>
+
+<li> <b>"My theory doesn't have the mathematics, so I just need an
+  expert to work it out and/or to comment."</b> or 
+<b>"My theory doesn't make any numerical predictions for
+  experiments - I just need an expert to comment on the concepts."</b> 
+A problem with popular
+  science is that people sometimes think that's all there is. It is
+  VERY easy to underestimate the size and complexity of the edifice of
+  numerical experimental evidence that backs up physics - and in
+  particular GR + CDM + hot big bang + standard model of particle
+  physics.   We all had to learn how to make numerical predictions. The onus
+  is on the maker of a new theory to make predictions. Mathematics
+  allows you to express concepts with much more precision than just
+  words. No predictions equals no theory. If you don't know how to
+  make these numerical predictions, then my advice for you is to take
+  some courses in physics and mathematics, where you will find many
+  people keen to help you learn.</li>
+
+<li> <b>"I am absolutely sure my theory is correct."</b> This is a very,
+  very bad sign. No-one competent is ever that sure.</li>
+
+<li> <b>"I don't need to learn any of this conventional physics and
+  mathematics."</b> Again a very, very bad sign, essentially guaranteeing
+  you don't understand the fundamentals of the subject and -much
+  worse- that you're unwilling to fix that problem.</li>
+
+<li> <b>"I have spent (insert some number of decades) on this theory."</b>
+  I'm afraid this can be tragic, especially if conditions 2-4
+  apply. Working a long time doesn't guarantee you're working on the
+  right things.</li>
+
+<li> <b>"The requirement to learn mathematics is like a medieval
+  priesthood restricting access to information to those that learned
+  Latin. Mathematics is not and should not be necessary."</b> Oh dear.</li>
+</ol>
+</p>
+
+<p>Stephen Serjeant</p>
+<p>Latest update 4th March 2020</p>
+
+
+
+  </div>
+<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat" />
+	<div id="footer">
+    <p align="justify" class="style4">These pages are the personal responsibility of Stephen Serjeant. The views expressed here do not necessarily represent the views of the Open University. The University takes no responsibility for any material on these pages.</p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+</html>
